@@ -14,6 +14,8 @@ pipeline {
 
 								slackSend color: "cceef9", message: "`API Comparison Completed` View Results Here: (<${env.API_COMPARATOR}|Reports>)"
 
+								slackSend color: "229954", message: "```End of automation pipeline```"
+
             }
         }
     }
